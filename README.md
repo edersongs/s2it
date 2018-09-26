@@ -1,4 +1,4 @@
-# Avaliação Técnica S2ITf
+# Avaliação Técnica S2IT
 
 #### Respostas dos exercicios de múltipla escolha 
 
