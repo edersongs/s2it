@@ -3,24 +3,31 @@
 #### Respostas dos exercicios de múltipla escolha 
 
 Questão 1)
+
     Resposta Correta: Opção A
 -------------------------------------
 Questão 2)
+
     Resposta Correta: Opção D
 --------------------------------------
 Questão 3)
+
     Resposta Correta: Opção C
 --------------------------------------
 Questão 4)
+
     Resposta Correta: Opção A 
 --------------------------------------
 Questão 5)
+
     Resposta Correta: Opção A 
 --------------------------------------
 Questão 6)
+
     Resposta Correta: Opção C
 --------------------------------------
 Questão 7)
+
     Resposta Correta: Opção E
 --------------------------------------
 
