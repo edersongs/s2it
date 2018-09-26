@@ -35,9 +35,10 @@ Questão 7)
 
 Questão 8)
 
-```
+```ruby
 public int calcula(Integer valorA, Integer valorB) {
-	String valorC = "";
+	
+    String valorC = "";
     char[] arrayA = valorA.toString().toCharArray();
     char[] arrayB = valorB.toString().toCharArray();
     int maiorIndex = arrayA.length > arrayB.length ? arrayA.length : arrayB.length;
@@ -60,61 +61,61 @@ public int calcula(Integer valorA, Integer valorB) {
 
 Questão 9)
 
-```
+```ruby
 public class BinaryTree {
 
-	    private int valor;
+    private int valor;
 
-	    private BinaryTree esquerda;
+    private BinaryTree esquerda;
 
-	    private BinaryTree direita;
+    private BinaryTree direita;
 
-		public int getValor() {
-			return valor;
-		}
-
-		public void setValor(int valor) {
-			this.valor = valor;
-		}
-
-		public BinaryTree getEsquerda() {
-			return esquerda;
-		}
-
-		public void setEsquerda(BinaryTree esquerda) {
-			this.esquerda = esquerda;
-		}
-
-		public BinaryTree getDireita() {
-			return direita;
-		}
-
-		public void setDireita(BinaryTree direita) {
-			this.direita = direita;
-		}
-
+	public int getValor() {
+		return valor;
 	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+
+	public BinaryTree getEsquerda() {
+		return esquerda;
+	}
+
+	public void setEsquerda(BinaryTree esquerda) {
+		this.esquerda = esquerda;
+	}
+
+	public BinaryTree getDireita() {
+		return direita;
+	}
+
+	public void setDireita(BinaryTree direita) {
+		this.direita = direita;
+	}
+
+}
 	
-	public class Calcula {
+public class Calcula {
 
-	    private BinaryTree binaryTree;
+    private BinaryTree binaryTree;
 
-	    public Calcula(BinaryTree binaryTree) {
-	    	
-	        this.binaryTree = binaryTree;
-	    }
+    public Calcula(BinaryTree binaryTree) {
 
-	    public int somar() {
-	        return somar(binaryTree);
-	    }
+	this.binaryTree = binaryTree;
+    }
 
-	    private int somar(BinaryTree binaryTree) {
+    public int somar() {
+	return somar(binaryTree);
+    }
 
-	        if (binaryTree == null) {
-	            return 0;
-	        }
+    private int somar(BinaryTree binaryTree) {
 
-	        return binaryTree.getValor() + somar(binaryTree.getEsquerda()) + somar(binaryTree.getDireita());
-	    }
+	if (binaryTree == null) {
+	    return 0;
 	}
+
+	return binaryTree.getValor() + somar(binaryTree.getEsquerda()) + somar(binaryTree.getDireita());
+    }
+}
 ```
