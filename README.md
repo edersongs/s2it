@@ -1,6 +1,6 @@
 # Avaliação Técnica S2IT
 
-#### Respostas dos exercicios de múltipla escolha 
+#### Respostas dos exercícios de múltipla escolha 
 
 Questão 1)
 
